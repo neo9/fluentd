@@ -17,14 +17,6 @@ This patched version updates OpenSSL to version `1.1.1t-r0` to mitigate the foll
 - CVE-2022-4304
 - CVE-2022-4450
 
-## How to Build the Docker Image
-
-To build the Docker image, run the following command from the directory containing the Dockerfile:
-
-```bash
-docker build -t patched-fluentd .
-```
-
 ## Important Notes
 
 - This patched version is based on the Fluentd image `ghcr.io/banzaicloud/fluentd:v1.14.6-alpine-5`.
